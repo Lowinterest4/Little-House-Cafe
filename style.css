@@ -193,7 +193,7 @@ header {
 
 .carousel-track {
   display: flex;
-  gap: 1rem;
+  gap: 1rex`m;
   transition: transform .4s ease;
 }
 
@@ -259,7 +259,7 @@ header {
 }
 
 .product-card {
-  background: #fff;
+  background: #fff;a
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(123, 92, 255, .12);
@@ -271,6 +271,14 @@ header {
   box-shadow: 0 16px 34px rgba(255, 137, 198, .28);
 }
 
+/* Fixing PRICE alignment */
+.price {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
+  color: #333;
+  display: block;
+}
 /* ------------------------------
    ABOUT & VALUES
 ------------------------------ */
@@ -362,6 +370,9 @@ footer {
   text-align: center;
   border-top: 1px dashed #efe9ff;
 }
+
+
+
 
 /* ------------------------------
    RESPONSIVE
