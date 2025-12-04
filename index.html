@@ -17,7 +17,7 @@
 <header class="site-header">
   <div class="container nav-container">
     <a href="#home" class="logo">
-      <img src="logos.jpg" alt="Little House Café Logo" style="height:50px;">
+      <img src="logo.jpg" alt="Little House Café Logo" style="height:50px;">
       <span class="logo-script">LITTLE HOUSE</span>CAFÉ
     </a>
     <button class="nav-toggle"><i class="fa fa-bars"></i></button>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="hero-visual">
-      <img src="logos.jpg" alt="Little House Café" class="image">
+      <img src="logo.jpg" alt="Little House Café" class="image">
     </div>
   </div>
 </section>
@@ -152,6 +152,7 @@
 
 
 
+
 <!-- ABOUT + VALUES -->
 <section class="gradient-bg" id="about-story">
   <div class="container">
@@ -186,4 +187,62 @@
   </div>
 </section>
 
+  <!-- Login -->
+  <section id="login" class="auth-body gradient-bg">
+    <div class="auth-container">
+      <form id="loginForm" class="auth-card" novalidate>
+        <h1>Welcome back</h1>
+        <p class="sub">Log in to explore your saved items and orders.</p>
 
+        <div class="form-group">
+          <label for="loginEmail">Email</label>
+          <input id="loginEmail" name="email" type="email" placeholder="name@example.com" required />
+          <small class="error"></small>
+        </div>
+
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" name="password" type="password" placeholder="Your password" required minlength="8" />
+          <small class="error"></small>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Log in</button>
+          <a href="#" class="link">Forgot password?</a>
+        </div	
+
+        <p class="form-note">By logging in, you agree to our Terms & Privacy.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo"><span class="logo-script">LITTLE HOUSE</span>CAFE</a>
+        <p>Bite. Sip. Chill. Repeat</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#about">Our story</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#featured">Featured</a></li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2025 Little House Cafe. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  </html>
